@@ -20,6 +20,7 @@ import NIOCore
 import Darwin
 #elseif canImport(Glibc)
 import Glibc
+import CDispatch
 #elseif canImport(Musl)
 import Musl
 #elseif canImport(Bionic)
